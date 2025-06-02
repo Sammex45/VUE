@@ -1,36 +1,60 @@
 ---
-title: Welcome to Starlight
-description: Get started building your docs site with Starlight.
+title: The Progressive JavaScript Framework
+description: Reimagined Vue.js documentation with Astro Starlight.
 template: splash
 hero:
-  tagline: Congrats on setting up a new Starlight project!
+  title: The Progressive JavaScript Framework
+  tagline: An approachable, performant and versatile framework for building web user interfaces.
   image:
-    file: ../../assets/houston.webp
-  actions:
-    - text: Example Guide
-      link: /guides/example/
-      icon: right-arrow
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
-      icon: external
-      variant: minimal
+    file: ../../assets/vue-logo.png
+    actions:
+    - text: Why Vue
+      link: /why-vue
+      icon: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1.707-10.707a1 1 0 00-1.414-1.414l-3 3a1 1 0 000 1.414l3 3a1 1 0 001.414-1.414L9.414 10l2.293-2.293z" clip-rule="evenodd"/></svg>'
+
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
-## Next steps
+# <span style="font-size:2.5rem;font-weight:700;">The <span style="background: linear-gradient(to right, #42b883, #35495e); -webkit-background-clip: text; color: transparent;">Progressive</span> JavaScript Framework</span>
+
+<p style="font-size: 1.2rem;">An approachable, performant and versatile framework for building web user interfaces.</p>
+
+<br />
+
+---
+
+## Why Vue.js?
+
+Vue is built to be incrementally adoptable. The core library focuses on the view layer only, and it's easy to pick up and integrate with other libraries or existing projects.
 
 <CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
-	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
-	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
-	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
-	</Card>
+  <Card title="Approachable" icon="sparkles">
+    Already know HTML, CSS, and JavaScript? Read the docs and start building things in minutes!
+  </Card>
+  <Card title="Performant" icon="zap">
+    Optimized with a small footprint and lightning-fast rendering using the Virtual DOM.
+  </Card>
+  <Card title="Versatile" icon="layers">
+    Use it for simple UI widgets or full-featured single-page applications.
+  </Card>
+  <Card title="Ecosystem" icon="tree">
+    Official libraries for routing, state management, testing, and more.
+  </Card>
 </CardGrid>
+
+## Dive into the Docs
+
+
+-  <a href="/getting-started/introduction/" class="button">🚀 Get Started →</a>
+<br />
+-  <a href="/why-vue" class="button">🎥 Why Vue</a>
+<br />
+
+- <a href="/guide/installation/" class="button">⬇ Install</a>
+<br />
+-  <a href="https://v2.vuejs.org/" class="button">🛡 Security Updates</a>
+
+---
+
+> Tip: This page is fully customizable using Astro + MDX. You can animate elements, add Tailwind or CSS modules, or embed Vue components!
